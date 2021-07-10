@@ -16,7 +16,7 @@ jobs:
           command: npm run build
       - run:
           name: Deploy Firebase Hosting
-          command: firebase deploy --token=$FIREBASE_TOKEN  --project [every-a45c5]
+          command: firebase deploy --token=$FIREBASE_TOKEN  --project [every]
 
 workflows:
   version: 2
