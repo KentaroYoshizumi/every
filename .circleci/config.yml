@@ -16,7 +16,7 @@ jobs:
           command: npm run build
       - run:
           name: Deploy Firebase Hosting
-          command: firebase deploy --token=$FIREBASE_TOKEN # --project [your-project-id] 仮にこのままプッシュしてfailedになってしまう場合はこのコメントアウトを外してあなたのFirebaseプロジェクトのIDを記入してプッシュしてみてください。
+          command: firebase deploy --token=$FIREBASE_TOKEN  --project [every-a45c5]
 
 workflows:
   version: 2
