@@ -17,8 +17,4 @@ jobs:
       ##- run:
           ##name: Deploy Firebase Hosting
           ##command: firebase deploy ##--token "$FIREBASE_TOKEN"
-workflows:
-  version: 2
-  test:
-    jobs:
-      - test:
+
